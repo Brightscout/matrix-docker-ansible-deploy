@@ -40,3 +40,10 @@ matrix_postgres_connection_password: 'ZGHghf6kwk1yfq0twm'
 # https://github.com/spantaleev/matrix-docker-ansible-deploy/blob/master/docs/configuring-playbook-base-domain-serving.md
 #
 matrix_nginx_proxy_base_domain_serving_enabled: true
+
+#
+# Slack
+#
+matrix_mx_puppet_slack_enabled: true
+matrix_mx_puppet_slack_oauth_client_id: "1774449667744.3455991180982"
+matrix_mx_puppet_slack_oauth_client_secret: "604957068216fcb48a2d72c4051aa60c"
